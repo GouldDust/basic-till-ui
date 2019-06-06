@@ -1,0 +1,15 @@
+.ProductItem {
+    border: 1px solid black;
+    margin-bottom: 7px;
+}
+
+.ProductItem h4 {
+    display: inline-block;
+    width: 50%;
+    margin: 7px 0;
+}
+
+.ProductItem p {
+    margin: 7px 0;
+}
+

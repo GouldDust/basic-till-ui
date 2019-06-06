@@ -1,0 +1,12 @@
+.ProductList {
+    width: 66%;
+    float: left;
+}
+
+@media (max-width: 667px) {
+    .ProductList {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}

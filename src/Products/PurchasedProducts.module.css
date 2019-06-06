@@ -1,0 +1,12 @@
+.PurchasedProducts {
+    width: 33%;
+    float: left;
+}
+
+@media (max-width: 667px) {
+    .PurchasedProducts {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
