@@ -1,6 +1,8 @@
 .PurchasedProducts {
     width: 33%;
     float: left;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 667px) {
@@ -9,4 +11,20 @@
         float: none;
         width: 100%;
     }
+}
+
+.PurchasedProducts button {
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.PurchasedProducts .Cancel {
+    background-color: red;
+
+}
+
+.PurchasedProducts .Buy {
+    background-color: green;
 }

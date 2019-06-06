@@ -1,3 +1,8 @@
+.BasicTill {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
 .BasicTill:after {
     display: block;
     content: "";

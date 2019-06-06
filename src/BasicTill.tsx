@@ -15,6 +15,8 @@ class BasicTill extends Component<{}, IBasicTillState> {
             purchasedNames: []
         }
         this.addProduct = this.addProduct.bind(this);
+        this.clearProducts = this.clearProducts.bind(this);
+        this.payNow = this.payNow.bind(this);
     }
 
     addProduct(product: Product) {
@@ -27,12 +29,27 @@ class BasicTill extends Component<{}, IBasicTillState> {
         }
     }
 
+    clearProducts() {
+        this.setState(prevState => { 
+            return {
+                purchasedNames: []
+            }
+        });
+    }
+
+    payNow() {
+        console.error("Not yet implemented");
+        alert("Not yet implemented");
+    }
+
     render() {
         return (
             <div className={classes.BasicTill}>
                 <h1>Till System</h1>
                 <ProductList addProduct={this.addProduct}/>
-                <PurchasedProducts products={this.state.purchasedNames} />
+                <PurchasedProducts products={this.state.purchasedNames} 
+                    clearProducts={this.clearProducts}
+                    payNow={this.payNow} />
             </div>
         );
     }

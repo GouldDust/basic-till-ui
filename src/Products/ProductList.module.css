@@ -1,6 +1,8 @@
 .ProductList {
     width: 66%;
     float: left;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 667px) {

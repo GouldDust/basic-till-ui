@@ -24,7 +24,6 @@ class ProductList extends Component<IProductListProps, IProductListState> {
     componentDidMount() {
         axios.get('')
         .then(response => {
-            console.log(response);
             this.setState(prevState => {
                 return {
                     products: response.data.map((
