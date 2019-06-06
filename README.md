@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Dependencies for build
 
-Ensure you have npm installed and don't forget to run npm install before building
+Ensure you have npm installed and don't forget to run 
+
+### `npm install`
+
+before building
 
 ## Available Scripts
 
